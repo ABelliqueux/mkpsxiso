@@ -22,7 +22,7 @@ jobs:
     - name: Install deps
       run: |
         sudo apt-get update
-        sudo apt-get install libtinyxml2 libtinyxml2-dev build-essential
+        sudo apt-get install libtinyxml2-6 libtinyxml2-dev build-essential
         
     - uses: actions/checkout@v2
 
