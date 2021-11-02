@@ -42,7 +42,7 @@ jobs:
       run: ctest -C ${{env.BUILD_TYPE}}
       
     - name: Upload artifacts
-        uses: actions/upload-artifact@v2
-        with: 
-          name: mkpsxiso-linux
-          path: ${{github.workspace}}/build
+      uses: actions/upload-artifact@v2
+      with: 
+        name: mkpsxiso-linux
+        path: ${{github.workspace}}/build
